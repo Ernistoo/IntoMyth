@@ -23,12 +23,20 @@
 
         <!-- Page Heading -->
         @isset($header)
-        <header class="bg-white dark:bg-gray-800 shadow">
-            <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                {{ $header }}
+    <header class="bg-white bg-transparent shadow-lg">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+            <div class="relative">
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 dark:from-blue-600 dark:to-purple-800 rounded-lg blur opacity-10 dark:opacity-15"></div>
+                <div class="relative px-6 py-4 bg-white dark:bg-gray-800 ring-1 ring-gray-200 dark:ring-gray-700 rounded-lg shadow-sm">
+                    <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100 tracking-tight">
+                        {{ $header }}
+                    </h1>
+                    <div class="absolute bottom-0 left-6 h-1 w-16 bg-gradient-to-r from-blue-500 to-purple-600 dark:from-blue-400 dark:to-purple-500 rounded-full"></div>
+                </div>
             </div>
-        </header>
-        @endisset
+        </div>
+    </header>
+@endisset
 
         <!-- Page Content -->
         <main>
