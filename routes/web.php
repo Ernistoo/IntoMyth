@@ -12,9 +12,7 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/fun', function () {
-    return view('fun');
-})->middleware(['auth', 'verified'])->name('fun');
+
 
 Route::get('/quiz', function () {
     return view('quiz');

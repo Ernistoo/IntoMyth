@@ -23,7 +23,7 @@
 
         <!-- Page Heading -->
         @isset($header)
-    <header class="bg-white bg-transparent shadow-lg">
+    <header class=" bg-transparent shadow-lg">
         <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
             <div class="relative">
                 <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 dark:from-blue-600 dark:to-purple-800 rounded-lg blur opacity-10 dark:opacity-15"></div>
