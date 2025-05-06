@@ -312,31 +312,649 @@ const mythologyTemplates = {
     </div>
 </div>
     `,
+    greece: `
+    <div class="mt-6 text-gray-900 dark:text-gray-100">
+    <h3 class="text-3xl font-semibold text-gray-900 dark:text-gray-200 mb-4">Greek Mythology</h3>
+    
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">The Creation of the Cosmos</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+            According to <a href="https://en.wikipedia.org/wiki/Hesiod" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Hesiod's Theogony</a>, the universe began with:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
+            <li><strong>Chaos</strong> (Χάος) - The primordial void from which all things emerged</li>
+            <li><strong>Gaia</strong> (Γαῖα) - The Earth, first divine being to materialize</li>
+            <li><strong>Tartarus</strong> (Τάρταρος) - The abyss beneath the Earth</li>
+            <li><strong>Eros</strong> (Ἔρως) - The force of attraction and procreation</li>
+        </ul>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            Gaia gave birth to <strong>Uranus</strong> (Οὐρανός), the starry sky, who became her equal and mate. Their union produced:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300 mt-2">
+            <li>The twelve <strong>Titans</strong> - Including Cronus and Rhea</li>
+            <li>The three <strong>Cyclopes</strong> - One-eyed giant craftsmen</li>
+            <li>The three <strong>Hecatoncheires</strong> - Hundred-handed giants</li>
+        </ul>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">The Rise of the Olympians</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            The <a href="https://en.wikipedia.org/wiki/Titanomachy" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Titanomachy</a> (War of the Titans) marked the transition from Titan to Olympian rule:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300 mt-2">
+            <li>Cronus overthrew Uranus but swallowed his own children to prevent prophecy</li>
+            <li>Rhea saved Zeus by hiding him in Crete and giving Cronus a stone instead</li>
+            <li>Zeus later freed his siblings (Poseidon, Hades, Hera, Demeter, Hestia) from Cronus' stomach</li>
+            <li>After a 10-year war, the Olympians defeated the Titans and imprisoned them in Tartarus</li>
+        </ul>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">The Olympian Pantheon</h4>
+        
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Zeus" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">1. Zeus (Ζεύς)</a> - King of the Gods
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                God of thunder, lightning, and supreme ruler of Mount Olympus:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Symbols: Lightning bolt, eagle, oak tree</li>
+                <li>Notable for his many affairs with goddesses and mortals</li>
+                <li>Father of major gods (Athena, Apollo, Artemis, Hermes) and heroes (Heracles, Perseus)</li>
+                <li>Maintained cosmic order (Dike) and enforced divine justice</li>
+            </ul>
+        </div>
+
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Poseidon" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">2. Poseidon (Ποσειδῶν)</a> - God of the Sea
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                Ruler of the oceans, earthquakes, and horses:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Symbols: Trident, dolphin, horse</li>
+                <li>Created springs and caused earthquakes by striking the earth</li>
+                <li>Competed with Athena for patronage of Athens</li>
+                <li>Father of many mythical creatures (Pegasus, Cyclops Polyphemus)</li>
+            </ul>
+        </div>
+
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Hades" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">3. Hades (ᾍδης)</a> - God of the Underworld
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                Ruler of the dead and lord of the Underworld:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Symbols: Cerberus, Cypress tree, key</li>
+                <li>Abducted Persephone to be his queen (explaining seasons)</li>
+                <li>Not evil but stern and unyielding</li>
+                <li>Rarely left the Underworld and wasn't worshipped like other Olympians</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">Major Myths and Heroes</h4>
+        
+        <div class="mt-4">
+            <h5 class="font-semibold text-lg mb-2">The Twelve Labors of Heracles</h5>
+            <p class="text-gray-700 dark:text-gray-300">
+                <a href="https://en.wikipedia.org/wiki/Heracles" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Heracles</a> (Roman Hercules) completed impossible tasks as penance:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Slaying the Nemean Lion and Lernaean Hydra</li>
+                <li>Capturing the Golden Hind and Erymanthian Boar</li>
+                <li>Cleaning the Augean stables in one day</li>
+                <li>Retrieving Cerberus from the Underworld</li>
+            </ul>
+        </div>
+
+        <div class="mt-6">
+            <h5 class="font-semibold text-lg mb-2">The Odyssey</h5>
+            <p class="text-gray-700 dark:text-gray-300">
+                <a href="https://en.wikipedia.org/wiki/Odyssey" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Odysseus'</a> 10-year journey home after the Trojan War:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Encounters with Cyclops, Sirens, and Circe</li>
+                <li>Journey to the Underworld</li>
+                <li>Final revenge against Penelope's suitors</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mt-6 text-gray-900 dark:text-gray-100">
+        <h4 class="font-semibold text-xl mb-2">Cultural Legacy</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            Greek mythology has profoundly influenced Western civilization:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 mt-2 text-gray-700 dark:text-gray-300">
+            <li>Foundation of Greek literature (Homer, Hesiod, tragedians)</li>
+            <li>Source of countless artistic and architectural motifs</li>
+            <li>Psychological concepts (Oedipus complex, narcissism)</li>
+            <li>Astronomical names (planets, constellations)</li>
+        </ul>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            The myths were central to ancient Greek religion, with major sanctuaries like <a href="https://en.wikipedia.org/wiki/Delphi" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Delphi</a> and <a href="https://en.wikipedia.org/wiki/Olympia,_Greece" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Olympia</a> dedicated to the gods.
+        </p>
+    </div>
+</div>
+    `,
+    china: `
+    <div class="mt-6 text-gray-900 dark:text-gray-100">
+    <h3 class="text-3xl font-semibold text-gray-900 dark:text-gray-200 mb-4">Chinese Mythology</h3>
+    
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">Cosmogony and Creation</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+            Chinese creation myths vary by tradition, but core elements include:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
+            <li><strong>Pangu (盘古)</strong> - The primordial being who separated heaven and earth from chaos (<a href="https://en.wikipedia.org/wiki/Pangu" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Pangu myth</a>)</li>
+            <li><strong>Nüwa (女娲)</strong> - The mother goddess who created humans from yellow clay</li>
+            <li>The <strong>Three Sovereigns and Five Emperors</strong> - Mytho-historical rulers who established civilization</li>
+        </ul>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            According to the <a href="https://en.wikipedia.org/wiki/Huainanzi" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Huainanzi</a>, in the beginning there was formless chaos (Hundun). Pangu emerged and over 18,000 years separated Yin (earth) from Yang (heaven).
+        </p>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">Major Deities and Figures</h4>
+        
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Jade_Emperor" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">1. Yu Huang (玉皇) - The Jade Emperor</a>
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                Supreme ruler of heaven in Taoist mythology:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Governs the celestial bureaucracy</li>
+                <li>Final judge of souls after death</li>
+                <li>His birthday is celebrated on the 9th day of Chinese New Year</li>
+                <li>Originally a mortal who attained immortality through meditation</li>
+            </ul>
+        </div>
+
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Nüwa" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">2. Nüwa (女娲)</a> - Creator Goddess
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                Serpent-bodied goddess who repaired heaven and created humanity:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Mended the broken heavens after Gong Gong damaged the pillars</li>
+                <li>Established marriage rituals</li>
+                <li>Often depicted with Fuxi (her brother/husband) holding compass and square</li>
+                <li>One of the Three Sovereigns in early mythology</li>
+            </ul>
+        </div>
+
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Yanluo_Wang" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">3. Yanluo Wang (阎罗王)</a> - King of Hell
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                Ruler of Diyu (the underworld) who judges the dead:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Presides over the Ten Courts of Hell</li>
+                <li>Determines reincarnation based on mortal deeds</li>
+                <li>Originally derived from the Hindu/Buddhist Yama</li>
+                <li>Often depicted with Ox-Head and Horse-Face guardians</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">Key Myths and Legends</h4>
+        
+        <div class="mt-4">
+            <h5 class="font-semibold text-lg mb-2">The Great Flood</h5>
+            <p class="text-gray-700 dark:text-gray-300">
+                Similar to global flood myths, featuring <a href="https://en.wikipedia.org/wiki/Yu_the_Great" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Yu the Great</a>:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Lasted for generations until Yu solved it</li>
+                <li>Yu dredged rivers instead of building dams (unlike his father Gun)</li>
+                <li>Worked for 13 years, passing his home without entering</li>
+                <li>Established the Xia Dynasty after controlling the waters</li>
+            </ul>
+        </div>
+
+        <div class="mt-6">
+            <h5 class="font-semibold text-lg mb-2">Journey to the West</h5>
+            <p class="text-gray-700 dark:text-gray-300">
+                The epic tale of <a href="https://en.wikipedia.org/wiki/Sun_Wukong" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Sun Wukong</a> (Monkey King):
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Monkey King's rebellion against heaven</li>
+                <li>His imprisonment under Five Elements Mountain</li>
+                <li>Accompanying Xuanzang to fetch Buddhist scriptures</li>
+                <li>Defeating demons while learning humility</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mt-6 text-gray-900 dark:text-gray-100">
+        <h4 class="font-semibold text-xl mb-2">Philosophical and Cultural Influence</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            Chinese mythology blends Taoist, Buddhist, and Confucian elements:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 mt-2 text-gray-700 dark:text-gray-300">
+            <li>Concept of Tian (Heaven) as moral force</li>
+            <li>Ancestor worship and filial piety themes</li>
+            <li>Yin-Yang balance in creation stories</li>
+            <li>Mandate of Heaven justifying dynastic cycles</li>
+        </ul>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            These myths remain alive in festivals like <a href="https://en.wikipedia.org/wiki/Qixi_Festival" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Qixi</a> (celebrating Zhinü and Niulang) and <a href="https://en.wikipedia.org/wiki/Duanwu_Festival" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Dragon Boat Festival</a> (honoring Qu Yuan).
+        </p>
+    </div>
+</div>
+    `,
+    meso: `
+    <div class="mt-6 text-gray-900 dark:text-gray-100">
+    <h3 class="text-3xl font-semibold text-gray-900 dark:text-gray-200 mb-4">Mesoamerican Mythology</h3>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">The Creation of the World</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+            Mesoamerican mythology, especially from the <a href="https://en.wikipedia.org/wiki/Aztec_mythology" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Aztec</a> and <a href="https://en.wikipedia.org/wiki/Maya_mythology" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Maya</a> civilizations, tells of multiple creations and destructions of the world. The Aztecs believed in Five Suns—eras of creation and destruction.
+        </p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
+            <li><strong>Tezcatlipoca</strong> - Creator god and first sun, devoured by jaguars</li>
+            <li><strong>Quetzalcoatl</strong> - God of wind and knowledge, who ruled the second sun</li>
+            <li>Each sun ended with cataclysms (wind, fire, floods, jaguars)</li>
+        </ul>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            In Maya mythology, the <a href="https://en.wikipedia.org/wiki/Popol_Vuh" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Popol Vuh</a> describes failed human creations from mud and wood, until the gods finally succeeded with maize, the sacred crop of the Maya.
+        </p>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">Gods of Creation and Duality</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            In both Aztec and Maya beliefs, duality played a central role. Key creator deities include:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300 mt-2">
+            <li><strong>Ometeotl</strong> – Aztec dual god of creation, both male (Ometecuhtli) and female (Omecihuatl)</li>
+            <li><strong>Hunab Ku</strong> – Maya supreme god and creator, sometimes seen as remote and abstract</li>
+            <li><strong>Itzamna</strong> – Maya god of wisdom and sky, involved in creation and civilization</li>
+        </ul>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">Hero Twins and the Underworld</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            A core Maya myth from the Popol Vuh tells of the Hero Twins:
+        </p>
+
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Hunahpu_and_Xbalanque" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Hunahpu and Xbalanque</a> – The Hero Twins
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                They were sons of a sacrificed god and faced trials in Xibalba, the Maya underworld:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Outwitted the Lords of Xibalba through cleverness and magic</li>
+                <li>Sacrificed themselves and were resurrected as celestial bodies</li>
+                <li>Hunahpu became the sun, Xbalanque the moon (in some interpretations)</li>
+                <li>Represent duality, rebirth, and cosmic balance</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">Key Myths and Events</h4>
+
+        <div class="mt-4">
+            <h5 class="font-semibold text-lg mb-2">The Sacrifice of the Gods</h5>
+            <p class="text-gray-700 dark:text-gray-300">
+                In Aztec myth, the Fifth Sun (current world) was created through divine self-sacrifice:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li><strong>Nanahuatzin</strong> leapt into a fire to become the sun</li>
+                <li><strong>Tecciztecatl</strong> hesitated but followed, becoming the moon</li>
+                <li>The gods then sacrificed themselves to move the sun across the sky</li>
+                <li>Established a cosmic model requiring human blood to sustain the sun</li>
+            </ul>
+        </div>
+
+        <div class="mt-6">
+            <h5 class="font-semibold text-lg mb-2">Quetzalcoatl and the Creation of Humanity</h5>
+            <p class="text-gray-700 dark:text-gray-300">
+                The feathered serpent god <a href="https://en.wikipedia.org/wiki/Quetzalcoatl" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Quetzalcoatl</a> descended into the underworld to retrieve the bones of past humans:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Tricked Mictlantecuhtli, the lord of the underworld</li>
+                <li>Used his own blood to reanimate the bones and create modern humans</li>
+                <li>Associated with renewal, learning, and civilization</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mt-6 text-gray-900 dark:text-gray-100">
+        <h4 class="font-semibold text-xl mb-2">Symbolic Importance</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            Mesoamerican mythology reflected the peoples’ understanding of cosmic cycles, sacrifice, and duality. Common themes include:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 mt-2 text-gray-700 dark:text-gray-300">
+            <li>Creation through destruction and sacrifice</li>
+            <li>Balance of opposites: life/death, light/dark, male/female</li>
+            <li>Reverence for celestial bodies (sun, moon, Venus)</li>
+            <li>Humans' role in maintaining cosmic order through offerings</li>
+        </ul>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            Temples like <a href="https://en.wikipedia.org/wiki/Templo_Mayor" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Templo Mayor</a> in Tenochtitlan and pyramids like <a href="https://en.wikipedia.org/wiki/Temple_of_Kukulkan" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">El Castillo</a> at Chichén Itzá were built as cosmic centers aligned with mythological and astronomical principles.
+        </p>
+    </div>
+</div>
+
+    `,
+    india: `
+    <div class="mt-6 text-gray-900 dark:text-gray-100">
+    <h3 class="text-3xl font-semibold text-gray-900 dark:text-gray-200 mb-4">Indian Mythology</h3>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">The Creation of the Universe</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+            Indian mythology, particularly in <a href="https://en.wikipedia.org/wiki/Hindu_mythology" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Hindu mythology</a>, describes a cyclic cosmology where the universe is created, preserved, and destroyed repeatedly. In the beginning, there was only a formless, infinite ocean. From it emerged:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
+            <li><strong>Brahman</strong> – The ultimate, formless cosmic spirit</li>
+            <li><strong>Brahma</strong> – The creator god, born from a lotus growing from Vishnu's navel</li>
+        </ul>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            Time is divided into four Yugas (epochs), and the universe undergoes constant cycles of creation and dissolution (Pralaya), governed by divine forces.
+        </p>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">The Hindu Trinity (Trimurti)</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            At the heart of Hindu cosmology is the <strong>Trimurti</strong>—three aspects of the Supreme Reality, each with cosmic responsibilities:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300 mt-2">
+            <li><strong>Brahma</strong> – The creator, associated with wisdom and the Vedas</li>
+            <li><strong>Vishnu</strong> – The preserver, incarnates in different avatars to protect dharma</li>
+            <li><strong>Shiva</strong> – The destroyer and transformer, symbolizing regeneration through destruction</li>
+        </ul>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">Avatars and Epic Heroes</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            Vishnu’s avatars are central to many stories and epics. The two most famous are:
+        </p>
+
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Rama" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">1. Rama</a> – The Ideal King
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                Hero of the <a href="https://en.wikipedia.org/wiki/Ramayana" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Ramayana</a>, he is the embodiment of dharma and virtue:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Exiled for 14 years due to palace intrigue</li>
+                <li>Wife Sita kidnapped by demon king Ravana</li>
+                <li>Helped by Hanuman and the Vanara army</li>
+                <li>Defeated Ravana and restored order</li>
+            </ul>
+        </div>
+
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Krishna" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">2. Krishna</a> – The Divine Statesman
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                Central figure in the <a href="https://en.wikipedia.org/wiki/Mahabharata" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Mahabharata</a> and the Bhagavad Gita:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Served as charioteer and guide to Arjuna</li>
+                <li>Taught the philosophy of karma, duty, and detachment</li>
+                <li>Also known for his playful childhood and divine miracles</li>
+                <li>Considered the complete incarnation of Vishnu</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">Key Myths and Cosmic Events</h4>
+
+        <div class="mt-4">
+            <h5 class="font-semibold text-lg mb-2">The Churning of the Ocean (Samudra Manthan)</h5>
+            <p class="text-gray-700 dark:text-gray-300">
+                Gods and demons churned the cosmic ocean to obtain Amrita (elixir of immortality):
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Used Mount Mandara as a churning rod and Vasuki (a serpent) as the rope</li>
+                <li>Produced divine items like Lakshmi (goddess of wealth) and Kamadhenu (wish-granting cow)</li>
+                <li>Vishnu took the form of Mohini to distribute Amrita to the gods only</li>
+            </ul>
+        </div>
+
+        <div class="mt-6">
+            <h5 class="font-semibold text-lg mb-2">The Dance of Shiva (Tandava)</h5>
+            <p class="text-gray-700 dark:text-gray-300">
+                Shiva’s cosmic dance symbolizes the cycle of creation and destruction:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Destroys evil and ignorance through rhythmic movement</li>
+                <li>Often depicted in Nataraja form, surrounded by flames</li>
+                <li>Stomps on the demon of illusion (Apasmara)</li>
+                <li>Represents eternal rhythm and divine balance</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mt-6 text-gray-900 dark:text-gray-100">
+        <h4 class="font-semibold text-xl mb-2">Symbolic Importance</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            Indian mythology weaves together spirituality, moral philosophy, and cosmic understanding. It emphasizes:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 mt-2 text-gray-700 dark:text-gray-300">
+            <li>The cyclical nature of time and existence</li>
+            <li>The pursuit of dharma (duty) and moksha (liberation)</li>
+            <li>The interconnectedness of divine and human realms</li>
+            <li>The balance of opposing forces (creation/destruction, male/female)</li>
+        </ul>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            These myths continue to shape Hindu religious practices, rituals, festivals like <a href="https://en.wikipedia.org/wiki/Diwali" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Diwali</a> and <a href="https://en.wikipedia.org/wiki/Holi" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Holi</a>, and temple iconography across India and beyond.
+        </p>
+    </div>
+</div>
+
+    `,
+    egypt: `
+    <div class="mt-6 text-gray-900 dark:text-gray-100">
+    <h3 class="text-3xl font-semibold text-gray-900 dark:text-gray-200 mb-4">Egyptian Mythology</h3>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">The Creation of the World</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+            Ancient Egyptian mythology presents several creation myths depending on regional cult centers, but a common theme is the emergence of order (Ma'at) from chaos (Nun). In the Heliopolitan tradition:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
+            <li><strong>Atum</strong> – The self-created god who emerged from the primordial waters of Nun</li>
+            <li>He created <strong>Shu</strong> (air) and <strong>Tefnut</strong> (moisture), who then birthed <strong>Geb</strong> (earth) and <strong>Nut</strong> (sky)</li>
+        </ul>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            Nut and Geb gave rise to Osiris, Isis, Set, and Nephthys, foundational figures in Egyptian mythology who shaped divine kingship and the afterlife.
+        </p>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">The Divine Siblings and Cosmic Conflict</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            The Osirian myth cycle centers on divine drama between siblings:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300 mt-2">
+            <li><strong>Osiris</strong> – God of the dead and afterlife, just ruler of Egypt</li>
+            <li><strong>Isis</strong> – Goddess of magic and motherhood, Osiris’s devoted wife</li>
+            <li><strong>Set</strong> – God of chaos and storms, murdered Osiris to seize power</li>
+            <li><strong>Nephthys</strong> – Sister and helper of Isis, mother of Anubis</li>
+        </ul>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            After Osiris was dismembered by Set, Isis and Nephthys reassembled him. Their union brought forth <strong>Horus</strong>, who avenged his father and restored order.
+        </p>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">Key Deities and Their Roles</h4>
+
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Ra" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">1. Ra</a> – The Sun God
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                Central to Egyptian cosmology, Ra travels across the sky by day and through the underworld by night:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Fought nightly against the serpent Apophis to ensure sunrise</li>
+                <li>Combined with other gods (e.g., Amun-Ra) in later periods</li>
+                <li>Symbol of kingship, life, and renewal</li>
+            </ul>
+        </div>
+
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Horus" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">2. Horus</a> – The Sky and Kingship God
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                Son of Osiris and Isis, Horus battled Set to reclaim the throne of Egypt:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Often depicted as a falcon-headed deity</li>
+                <li>Represents divine kingship; pharaohs seen as Horus incarnate</li>
+                <li>Symbol of protection and righteous rule</li>
+            </ul>
+        </div>
+
+        <div class="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
+            <h4 class="font-semibold text-xl mb-2">
+                <a href="https://en.wikipedia.org/wiki/Anubis" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">3. Anubis</a> – God of the Dead and Mummification
+            </h4>
+            <p class="text-gray-700 dark:text-gray-300">
+                Jackal-headed god who guided souls to the afterlife and oversaw embalming:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Weighed the hearts of the dead against Ma'at (truth)</li>
+                <li>Ensured proper burial rites and transition to the afterlife</li>
+                <li>Associated with cemeteries and tomb protection</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mb-8">
+        <h4 class="text-2xl font-semibold mb-3 text-gray-800 dark:text-gray-200 border-b pb-2">Key Myths and Ritual Concepts</h4>
+
+        <div class="mt-4">
+            <h5 class="font-semibold text-lg mb-2">The Weighing of the Heart</h5>
+            <p class="text-gray-700 dark:text-gray-300">
+                Upon death, the soul faced judgment in the Hall of Ma'at:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Heart weighed against the feather of Ma'at (truth and justice)</li>
+                <li>If heavier, the soul was devoured by Ammit (a demon goddess)</li>
+                <li>If balanced, the soul entered the blissful Field of Reeds</li>
+            </ul>
+        </div>
+
+        <div class="mt-6">
+            <h5 class="font-semibold text-lg mb-2">Ra’s Nightly Journey Through the Duat</h5>
+            <p class="text-gray-700 dark:text-gray-300">
+                Every night, Ra traveled through the Duat (underworld), symbolizing death and rebirth:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 mt-2 text-gray-700 dark:text-gray-300">
+                <li>Fought chaos serpent Apophis each night</li>
+                <li>Joined by other gods like Set and Mehen in his solar barque</li>
+                <li>Victory ensured sunrise and cosmic balance</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mt-6 text-gray-900 dark:text-gray-100">
+        <h4 class="font-semibold text-xl mb-2">Symbolic Importance</h4>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            Egyptian mythology emphasizes the harmony of divine order (Ma'at) over chaos, the eternal cycle of life and death, and the sacred nature of kingship. It highlights:
+        </p>
+        <ul class="list-disc pl-6 space-y-2 mt-2 text-gray-700 dark:text-gray-300">
+            <li>The pharaoh as a living god and protector of Ma'at</li>
+            <li>The importance of the afterlife and funerary rituals</li>
+            <li>Balance between cosmic forces through gods’ interactions</li>
+            <li>The integration of mythology into temple worship and state ideology</li>
+        </ul>
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
+            Egyptian myths remain visible today in temples like <a href="https://en.wikipedia.org/wiki/Karnak" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Karnak</a> and <a href="https://en.wikipedia.org/wiki/Temple_of_Isis" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Philae</a>, as well as the rituals and texts found in tombs like the <a href="https://en.wikipedia.org/wiki/Book_of_the_Dead" class="text-blue-600 dark:text-blue-400 hover:underline" target="_blank">Book of the Dead</a>.
+        </p>
+    </div>
+</div>
+
+    `
+
     // Add other country templates similarly
 };
 
-// Create dots on the map
+// Create interactive dots on the map
 function createCountryDots() {
     const mapContainer = document.querySelector('.p-6.text-gray-900');
     
     countries.forEach(country => {
         const dotHTML = `
-            <div class="absolute" style="top: ${country.top}%; left: ${country.left}%;">
+            <div class="absolute country-marker" 
+                 style="top: ${country.top}%; left: ${country.left}%;"
+                 data-country-id="${country.id}">
                 <button id="${country.id}-dot"
-                    class="relative group block w-4 h-4 bg-red-600 rounded-full shadow-lg cursor-pointer transition-all ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110 hover:bg-red-700">
-                    <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-gray-700 text-white text-xs font-medium px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    class="relative group block w-4 h-4 bg-red-600 rounded-full shadow-lg cursor-pointer transition-all ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110 hover:bg-red-700 focus:outline-none"
+                    aria-label="${country.name}">
+                    
+                    <!-- Tooltip -->
+                    <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-gray-800 text-white text-xs font-medium px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none z-10">
                         ${country.name}
+                        <div class="absolute top-full left-1/2 w-2 h-2 bg-gray-800 transform -translate-x-1/2 -translate-y-1 rotate-45"></div>
                     </div>
+                    
+                    <!-- Pulse animation -->
+                    <span class="absolute inset-0 rounded-full bg-red-400 opacity-0 group-hover:opacity-100 animate-ping"></span>
                 </button>
             </div>
         `;
         
         mapContainer.insertAdjacentHTML('beforeend', dotHTML);
         
-        // Add click event
-        document.getElementById(`${country.id}-dot`).addEventListener('click', (e) => {
+        const dotElement = document.getElementById(`${country.id}-dot`);
+        
+        // Click event for modal
+        dotElement.addEventListener('click', (e) => {
             e.preventDefault();
             showMythologyModal(country.id);
+        });
+        
+        // Hover effects
+        dotElement.addEventListener('mouseenter', () => {
+            // Highlight country on map (assuming you have SVG paths with country IDs)
+            const countryPath = document.querySelector(`#${country.id}-path`);
+            if (countryPath) {
+                countryPath.classList.add('fill-current', 'text-red-400');
+                countryPath.style.transition = 'fill 0.3s ease';
+            }
+        });
+        
+        dotElement.addEventListener('mouseleave', () => {
+            // Remove highlight
+            const countryPath = document.querySelector(`#${country.id}-path`);
+            if (countryPath) {
+                countryPath.classList.remove('fill-current', 'text-red-400');
+            }
         });
     });
 }

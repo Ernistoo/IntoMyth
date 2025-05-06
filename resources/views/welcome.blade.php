@@ -14,7 +14,7 @@
     <style>
         body {
             font-family: 'Figtree', sans-serif;
-            background: linear-gradient(135deg, #fcff33, #8a0101);
+            background: linear-gradient(135deg, gray, #f7f7f7);
             color: #ffffff;
             margin: 0;
         }
