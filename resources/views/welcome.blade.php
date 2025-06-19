@@ -111,7 +111,7 @@
 
     <div class="min-h-screen flex items-center justify-center">
         <div class="text-center max-w-2xl px-6">
-            <x-application-logo class="block h-12 w-auto fill-current text-gray-800 dark:text-gray-200 mb-12" />
+            <x-application-logo class="block h-12 w-auto fill-current text-gray-800 dark:text-gray-200 mb-16" />
 
             <h1 class="text-4xl text-color linez font-semibold mb-4">Welcome to IntoMyth</h1>
 

@@ -19,6 +19,9 @@
                     <x-nav-link :href="route('quiz')" :active="request()->routeIs('quiz')">
                         {{ __('Quiz') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('blog-posts.index')" :active="request()->routeIs('blog-posts.index')">
+                        {{ __('Share thoughts') }}
+                    </x-nav-link>
                 </div>
             </div>
 

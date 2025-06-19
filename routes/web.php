@@ -2,6 +2,10 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogPostController;
+
+
+Route::resource('blog-posts', BlogPostController::class);
 
 Route::get('/', function () {
     return view('welcome');
@@ -18,6 +22,7 @@ Route::get('/quiz', function () {
     return view('quiz');
 })->middleware(['auth', 'verified'])->name('quiz');
 
+Route::resource('blog-posts', BlogPostController::class);
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

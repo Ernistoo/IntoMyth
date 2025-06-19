@@ -1,7 +1,11 @@
 <x-app-layout>
     <div class="py-2">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-2">
-            <p class="text-center text-white">Click on any country with a red dot to see information about their rich mythology!</p>
+        <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
+            {{ __('Click on any country to find out about their mythology!') }}
+        </h2>
+    </x-slot>
             <div class="bg-white dark:bg-gray-600 overflow-hidden shadow-lg sm:rounded-xl">
                 <div class="p-6 text-gray-900 dark:text-gray-100 relative">
                     <!-- World Map -->
